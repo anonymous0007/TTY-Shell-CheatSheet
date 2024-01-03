@@ -1,0 +1,13 @@
+Command	Description
+python -c ‘import pty; pty.spawn(“/bin/bash”)’	Python BASH TTY shell
+python3 -c ‘import pty; pty.spawn(“/bin/bash”)’	Python 3 BASH TTY shell
+echo os.system(‘/bin/bash’)	Echo BASH TTY shell
+/bin/bash -i	BASH TTY shell
+perl -e ‘exec “/bin/bash”;’	Perl BASH TTY shell
+ruby -e ‘exec “/bin/bash”‘	Ruby BASH TTY shell
+lua -e ‘os.execute(‘/bin/bash’)’	Lua BASH TTY shell
+exec “/bin/bash”	IRB BASH TTY shelll
+:!bash	Vi/Vim BASH TTY shell
+:set shell=/bin/bash:shell	Vi/Vim BASH TTY shell
+CTRO+R CTRL+X reset; /bin/bash 1>&0 2>&0	Nano BASH TTY shell
+!bash	Nmap BASH TTY shell
